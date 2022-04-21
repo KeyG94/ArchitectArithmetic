@@ -64,10 +64,6 @@ namespace ReviewMethodOutput
                 double totalArea = rect - triangle * 4;
                 double totalCost = costOfFloorinMaterial * totalArea;
 
-                Console.WriteLine(rect);
-                Console.WriteLine(triangle + triangle + triangle + triangle);
-
-
                 return Math.Round(totalCost, 2);
             }
 
